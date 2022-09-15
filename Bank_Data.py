@@ -1,12 +1,11 @@
 # Subscribe my youtube channel 
-# import requests
+ import requests
 
-# Ifsc_code = 'UBIN0573663' #Change IFSC Code as per your requirement
+ Ifsc_code = 'UBIN0573663'  #Change IFSC Code as per your requirement
 
-# API_fatch = 'https://ifsc.razorpay.com/'
+ API_fatch = 'https://ifsc.razorpay.com/'
 
-# Bank_data = requests.get(API_fatch + Ifsc_code).json()
+ Bank_data = requests.get(API_fatch + Ifsc_code).json()
 
-# print(Bank_data)
+ print(Bank_data)
 
-print(627 % 45)
