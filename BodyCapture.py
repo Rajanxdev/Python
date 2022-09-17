@@ -10,7 +10,7 @@ pose = mp_pose.Pose(
     min_tracking_confidence=0.5)
 
 # create capture object
-cap = cv2.VideoCapture('bad.mp4')
+cap = cv2.VideoCapture('bad.mp4') #video file location
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 10)
 
 while cap.isOpened():
